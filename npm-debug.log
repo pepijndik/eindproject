@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '@syncfusion/ej2' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose cache add [ '@syncfusion/ej2', null ]
+5 verbose cache add name=undefined spec="@syncfusion/ej2" args=["@syncfusion/ej2",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '@syncfusion/ej2',
+6 verbose parsed url   path: '@syncfusion/ej2',
+6 verbose parsed url   href: '@syncfusion/ej2' }
+7 verbose cache add name="" spec="syncfusion/ej2" args=["","syncfusion/ej2"]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'syncfusion/ej2',
+8 verbose parsed url   path: 'syncfusion/ej2',
+8 verbose parsed url   href: 'syncfusion/ej2' }
+9 silly lockFile 0c0704f2-syncfusion-ej2 syncfusion/ej2
+10 verbose lock syncfusion/ej2 /home/admin/.npm/0c0704f2-syncfusion-ej2.lock
+11 info maybeGithub Attempting syncfusion/ej2 from git://github.com/syncfusion/ej2
+12 silly lockFile b3e265b8-git-github-com-syncfusion-ej2 git://github.com/syncfusion/ej2
+13 verbose lock git://github.com/syncfusion/ej2 /home/admin/.npm/b3e265b8-git-github-com-syncfusion-ej2.lock
+14 verbose addRemoteGit [ 'git://github.com/syncfusion/ej2', 'master' ]
+15 warn `git config --get remote.origin.url` returned wrong result (git://github.com/syncfusion/ej2) undefined
+15 warn `git config --get remote.origin.url` returned wrong result (git://github.com/syncfusion/ej2) undefined
+16 verbose git clone git://github.com/syncfusion/ej2 undefined
+16 verbose git clone git://github.com/syncfusion/ej2 undefined
+17 silly lockFile b3e265b8-git-github-com-syncfusion-ej2 git://github.com/syncfusion/ej2
+18 silly lockFile b3e265b8-git-github-com-syncfusion-ej2 git://github.com/syncfusion/ej2
+19 info maybeGithub Attempting syncfusion/ej2 from git+ssh://git@github.com:syncfusion/ej2
+20 silly lockFile 995de6c7-git-github-com-syncfusion-ej2 git@github.com:syncfusion/ej2
+21 verbose lock git@github.com:syncfusion/ej2 /home/admin/.npm/995de6c7-git-github-com-syncfusion-ej2.lock
+22 verbose addRemoteGit [ 'git@github.com:syncfusion/ej2', 'master' ]
+23 warn `git config --get remote.origin.url` returned wrong result (git@github.com:syncfusion/ej2) undefined
+23 warn `git config --get remote.origin.url` returned wrong result (git@github.com:syncfusion/ej2) undefined
+24 error git clone git@github.com:syncfusion/ej2 undefined
+24 error git clone git@github.com:syncfusion/ej2 undefined
+25 silly lockFile 995de6c7-git-github-com-syncfusion-ej2 git@github.com:syncfusion/ej2
+26 silly lockFile 995de6c7-git-github-com-syncfusion-ej2 git@github.com:syncfusion/ej2
+27 silly lockFile 0c0704f2-syncfusion-ej2 syncfusion/ej2
+28 silly lockFile 0c0704f2-syncfusion-ej2 syncfusion/ej2
+29 error addLocal Could not install syncfusion/ej2
+30 error Error: ENOENT, stat 'syncfusion/ej2'
+31 error If you need help, you may report this *entire* log,
+31 error including the npm and node versions, at:
+31 error     <http://github.com/npm/npm/issues>
+32 error System Linux 3.10.0-1062.12.1.el7.x86_64
+33 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "@syncfusion/ej2"
+34 error cwd /home/admin/domains/project.pdik.nl/public_html/camping_systeem
+35 error node -v v0.10.30
+36 error npm -v 1.4.21
+37 error path syncfusion/ej2
+38 error code ENOENT
+39 error errno 34
+40 verbose exit [ 34, true ]
